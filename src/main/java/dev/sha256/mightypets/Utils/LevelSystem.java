@@ -2,6 +2,7 @@ package dev.sha256.mightypets.Utils;
 
 import com.google.common.base.Strings;
 import de.tr7zw.nbtapi.NBTItem;
+import dev.sha256.mightypets.instance.Pet;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.inventory.ItemStack;
@@ -10,6 +11,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LevelSystem {
+
+
+    private Pet pet;
+
+    public LevelSystem(Pet pet) {
+        this.pet = pet;
+
+    }
+
+    public void levelup() {
+    }
 
     //Write a Level System that takes in IPet so it can update NBT Data once leveled up.
     //Once leveled up set new XpNeeded for next level

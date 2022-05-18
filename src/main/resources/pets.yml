@@ -1,7 +1,7 @@
 Pets:
-  pig:
+  interest:
     enabled: true
-    name: "Pig"
+    name: "InterestPet"
     experience-equation: "(100 + (level - 1) * 5) + (100 + (level - 2) * 5) * 10%"
     experience-per-use: "5-10"
     max-level: 500
@@ -10,7 +10,7 @@ Pets:
     item:
       material: skull_item
       durability: 3
-      owner: "Pig"
+      owner: "Moneynote"
       name: "&e&l[!] &f{name} Pet &8(&eLvl &l{level}&8)"
       lore:
         - ""
