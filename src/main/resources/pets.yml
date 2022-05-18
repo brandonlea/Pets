@@ -1,0 +1,22 @@
+Pets:
+  pig:
+    enabled: true
+    name: "Pig"
+    experience-equation: "(100 + (level - 1) * 5) + (100 + (level - 2) * 5) * 10%"
+    experience-per-use: "5-10"
+    max-level: 500
+    value-equation: "((level - 1) / 20 + 1) * 0.01"
+    value-limit: 0.25
+    item:
+      material: skull_item
+      durability: 3
+      owner: "Pig"
+      name: "&e&l[!] &f{name} Pet &8(&eLvl &l{level}&8)"
+      lore:
+        - ""
+        - " &6* &eDescription"
+        - " &6* &fGives you money back from buying"
+        - ""
+        - " &6* &eExp: &f{exp}"
+        - " &6* &f{expbar}"
+        - ""

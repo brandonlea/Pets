@@ -1,3 +1,6 @@
 name: Pets
 version: '${project.version}'
-main: dev.sha256.pets.Pets
+main: dev.sha256.mightypets.MightyPets
+commands:
+  pets:
+    description: "Pets Command"
